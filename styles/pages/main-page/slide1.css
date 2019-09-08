@@ -1,0 +1,29 @@
+#page1-slide1 {
+    height: 100%;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.content-wrapper {
+    position: relative;
+}
+
+.page1-slide1-heading {
+    color:white;
+    font-size: 32px;
+}
+
+p {
+    font-size: 12px;
+    color: darkgray;
+}
+
+.form {
+    margin-top: 8px;
+}
+
+.email-input {
+    margin-right: 12px;
+    color: white;
+}
