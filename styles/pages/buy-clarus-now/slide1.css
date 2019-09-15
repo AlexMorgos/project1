@@ -1,9 +1,17 @@
-#page5-slide1 {
+#buy-clarus-now-slide1 {
     height: 100%;
     flex-direction: column;
     text-align: center;
     position: relative;
 }
 
+.content-wrapper {
+    position: relative;
+}
+
+.buy-clarus-now-slide1-heading {
+    color:white;
+    font-size: 32px;
+}
 
 

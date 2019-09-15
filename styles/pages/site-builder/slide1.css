@@ -1,0 +1,34 @@
+
+.grid {
+    object-fit: cover;
+    display: grid;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 230px 230px 230px 230px;
+    grid-template-areas: 
+    "img1 img3 img4 img5"
+    "img2 img3 img4 img6";
+}
+
+.grid-img1 {
+    grid-area: img1;
+}
+
+.grid-img2 {
+    grid-area: img2;
+}
+
+.grid-img3 {
+    grid-area: img3;
+}
+
+.grid-img4 {
+    grid-area: img4;
+}
+
+.grid-img5 {
+    grid-area: img5;
+}
+
+.grid-img6 {
+    grid-area: img6;
+}
