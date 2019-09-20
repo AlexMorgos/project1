@@ -1,1 +1,32 @@
+.slide-wraper {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
 
+.box1,
+.box2 {
+    height: 400px;
+    width: 500px;
+    display: block;
+    background-color: black;
+}
+
+.box1-heading,
+.box2-heading {
+    color: white;
+    font-size: 32px;   
+    padding-left: 88px;
+    padding-top: 88px;
+}
+
+.box1-description,
+.box2-description {
+    color: darkgray;
+    font-size: 12px;
+    padding-left: 88px;
+    padding-top: 20px;
+}
