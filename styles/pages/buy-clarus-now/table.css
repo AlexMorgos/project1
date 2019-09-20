@@ -23,7 +23,6 @@ td {
     width: 80%;
     margin: 0 auto;
     display: table;
-    padding: 0 0 8em 0;
 }
   
 .container td, .container th {
@@ -48,3 +47,19 @@ td {
     color: #FB667A;
 }
   
+.table-wraper {
+    background-color: black;
+    object-fit: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 100%;
+    }
+    td {
+        font-size: 75%;
+    }
+}
