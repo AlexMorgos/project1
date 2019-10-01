@@ -12,36 +12,34 @@
 
 .grid-img1 {
     background-image: url(../../../assets/images/sitebuiled1.jpg);
-    object-fit: cover;
     grid-area: img1;
 }
 
 .grid-img2 {
     background-image: url(../../../assets/images/sitebuilder2.jpg);
-    object-fit: cover;
     grid-area: img2;
 }
 
 .grid-img3 {
     background-image: url(../../../assets/images/sitebuilder3.jpg);
-    object-fit: cover;
     grid-area: img3;
 }
 
 .grid-img4 {
     background-image: url(../../../assets/images/sitebuilder4.jpg);
-    object-fit: cover;
     grid-area: img4;
 }
 
 .grid-img5 {
     background-image: url(../../../assets/images/sitebuilder\ 5.jpg);
-    object-fit: cover;
     grid-area: img5;
 }
 
 .grid-img6 {
     background-image: url(../../../assets/images/sitebuilder\ 6.jpg);
-    object-fit: cover;
     grid-area: img6;
+}
+
+.cover {
+    object-fit: cover;
 }
