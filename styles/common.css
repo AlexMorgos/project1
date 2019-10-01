@@ -54,7 +54,6 @@ input {
     }
 }
 
-
 .mobile-menu {
     position: fixed;
     bottom: 0;
@@ -79,7 +78,6 @@ input {
     color: white;
     cursor: pointer;
     padding: 10px;
-    
 }
 
 .mobile-menu-inner {
@@ -87,21 +85,17 @@ input {
     flex-direction: column;
     align-items: center;
     background-color: black;
-    /* padding: 24px; */
     overflow: auto;
     height: 100%;
-
 }
 
 .mobile-menu-inner::-webkit-scrollbar {
     width: 4px;
 }
   
-
 .mobile-menu-inner::-webkit-scrollbar-track {
     background: grey;
 }
-
 
 .mobile-menu-inner::-webkit-scrollbar-thumb {
     background: black; 
@@ -122,7 +116,6 @@ input {
     padding-bottom: 16px;
     align-items: center;
 }
-
 
 .logo {
     font-size: 20px;
